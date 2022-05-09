@@ -1,0 +1,38 @@
+.content{
+    border-radius: 10px;
+}
+.header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  h2{
+      color: #144e25;
+  }
+  
+  
+  .header button:hover {
+    background-color: #7f8d7d;
+  }
+  .header button {
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+    padding: 15px 15px;
+    font-size: 18px;
+    margin: 0 0 0 2px;
+  }
+  
+  .header button.active {
+    background-color: #ccc;
+  }
+  
+  .click{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-top: none;
+  }
